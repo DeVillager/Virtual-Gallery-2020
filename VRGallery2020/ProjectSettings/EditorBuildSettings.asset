@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Janina.unity
     guid: 90709ad19473e3b499cc4e6cc8e8b981
+  - enabled: 1
+    path: Assets/Scenes/Hilma.unity
+    guid: fa74f705ac5513743b1d14aef83a513f
   m_configObjects: {}

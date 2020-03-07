@@ -105,27 +105,19 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Vector2 TouchPad
+        public virtual SteamVR_Action_Boolean rotatecassca
         {
             get
             {
-                return SteamVR_Actions.default_TouchPad;
+                return SteamVR_Actions.default_rotatecassca;
             }
         }
         
-        public virtual SteamVR_Action_Boolean FireAction
+        public virtual SteamVR_Action_Vector2 erghserhs
         {
             get
             {
-                return SteamVR_Actions.default_FireAction;
-            }
-        }
-        
-        public virtual SteamVR_Action_Boolean RotateGallery
-        {
-            get
-            {
-                return SteamVR_Actions.default_RotateGallery;
+                return SteamVR_Actions.default_erghserhs;
             }
         }
         

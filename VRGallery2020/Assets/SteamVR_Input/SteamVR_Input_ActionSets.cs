@@ -25,9 +25,7 @@ namespace Valve.VR
         
         private static SteamVR_Input_ActionSet_mixedreality p_mixedreality;
         
-        private static SteamVR_Input_ActionSet_gun p_gun;
-        
-        private static SteamVR_Input_ActionSet_gallery p_gallery;
+        private static SteamVR_Input_ActionSet_joo p_joo;
         
         public static SteamVR_Input_ActionSet_default _default
         {
@@ -61,19 +59,11 @@ namespace Valve.VR
             }
         }
         
-        public static SteamVR_Input_ActionSet_gun gun
+        public static SteamVR_Input_ActionSet_joo joo
         {
             get
             {
-                return SteamVR_Actions.p_gun.GetCopy<SteamVR_Input_ActionSet_gun>();
-            }
-        }
-        
-        public static SteamVR_Input_ActionSet_gallery gallery
-        {
-            get
-            {
-                return SteamVR_Actions.p_gallery.GetCopy<SteamVR_Input_ActionSet_gallery>();
+                return SteamVR_Actions.p_joo.GetCopy<SteamVR_Input_ActionSet_joo>();
             }
         }
         
@@ -83,15 +73,13 @@ namespace Valve.VR
             SteamVR_Actions.p_platformer = ((SteamVR_Input_ActionSet_platformer)(SteamVR_ActionSet.Create<SteamVR_Input_ActionSet_platformer>("/actions/platformer")));
             SteamVR_Actions.p_buggy = ((SteamVR_Input_ActionSet_buggy)(SteamVR_ActionSet.Create<SteamVR_Input_ActionSet_buggy>("/actions/buggy")));
             SteamVR_Actions.p_mixedreality = ((SteamVR_Input_ActionSet_mixedreality)(SteamVR_ActionSet.Create<SteamVR_Input_ActionSet_mixedreality>("/actions/mixedreality")));
-            SteamVR_Actions.p_gun = ((SteamVR_Input_ActionSet_gun)(SteamVR_ActionSet.Create<SteamVR_Input_ActionSet_gun>("/actions/gun")));
-            SteamVR_Actions.p_gallery = ((SteamVR_Input_ActionSet_gallery)(SteamVR_ActionSet.Create<SteamVR_Input_ActionSet_gallery>("/actions/gallery")));
+            SteamVR_Actions.p_joo = ((SteamVR_Input_ActionSet_joo)(SteamVR_ActionSet.Create<SteamVR_Input_ActionSet_joo>("/actions/joo")));
             Valve.VR.SteamVR_Input.actionSets = new Valve.VR.SteamVR_ActionSet[] {
                     SteamVR_Actions._default,
                     SteamVR_Actions.platformer,
                     SteamVR_Actions.buggy,
                     SteamVR_Actions.mixedreality,
-                    SteamVR_Actions.gun,
-                    SteamVR_Actions.gallery};
+                    SteamVR_Actions.joo};
         }
     }
 }

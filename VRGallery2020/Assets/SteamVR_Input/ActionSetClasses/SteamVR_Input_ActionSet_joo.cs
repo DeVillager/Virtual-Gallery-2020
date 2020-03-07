@@ -14,14 +14,14 @@ namespace Valve.VR
     using UnityEngine;
     
     
-    public class SteamVR_Input_ActionSet_gun : Valve.VR.SteamVR_ActionSet
+    public class SteamVR_Input_ActionSet_joo : Valve.VR.SteamVR_ActionSet
     {
         
-        public virtual SteamVR_Action_Boolean GunFire
+        public virtual SteamVR_Action_Vector2 rotate
         {
             get
             {
-                return SteamVR_Actions.gun_GunFire;
+                return SteamVR_Actions.joo_rotate;
             }
         }
     }
