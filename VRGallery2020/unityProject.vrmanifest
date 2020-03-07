@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.vrgallery3.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\vive\\Desktop\\VRGalleryC\\VRGallery2020\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "C:\\Users\\vive\\Desktop\\VRGallery Final\\VRGallery2020\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "VRGallery3 [Testing]"
