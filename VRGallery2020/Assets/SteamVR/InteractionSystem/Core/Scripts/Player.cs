@@ -41,7 +41,7 @@ namespace Valve.VR.InteractionSystem
         public SteamVR_Action_Boolean headsetOnHead = SteamVR_Input.GetBooleanAction("HeadsetOnHead");
 
 		public bool allowToggleTo2D = true;
-
+        private bool showLaser = true;
 
 		//-------------------------------------------------
 		// Singleton instance of the Player. Only one can exist at a time.

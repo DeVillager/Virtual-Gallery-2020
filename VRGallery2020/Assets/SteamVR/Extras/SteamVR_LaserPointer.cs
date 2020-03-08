@@ -154,6 +154,22 @@ namespace Valve.VR.Extras
             }
             pointer.transform.localPosition = new Vector3(0f, 0f, dist / 2f);
         }
+
+        void OnEnable()
+        {
+            if (pointer != null)
+            {
+                pointer.SetActive(true);
+            }
+        }
+
+        void OnDisable()
+        {
+            if (pointer != null)
+            {
+                pointer.SetActive(false);
+            }
+        }
     }
 
     public struct PointerEventArgs

@@ -1,12 +1,11 @@
 ﻿using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
+using Valve.VR.Extras;
 
 public class PlayerSpawnController : MonoBehaviour
 {
     public GameObject Player;
     public GameObject PlayerPrefab;
-
+    public bool laserEnabled = true;
     public GameObject SpawnLocation;
 
     void Awake()
@@ -16,7 +15,6 @@ public class PlayerSpawnController : MonoBehaviour
             //player already exists, so just move it to the spawn location and set the Player gameobject parameter
             Player = GameObject.FindGameObjectWithTag("Player");
             Player.transform.position = SpawnLocation.transform.position;
-
         }
         else
         {
@@ -24,6 +22,10 @@ public class PlayerSpawnController : MonoBehaviour
             Player = Instantiate(PlayerPrefab);
             Player.transform.position = SpawnLocation.transform.position;
         }
+
+        //GameObject.Find("New Game Object").SetActive(laserEnabled);
+        Player.GetComponentInChildren<SteamVR_LaserPointer>().enabled = laserEnabled;
+
     }
 
 }

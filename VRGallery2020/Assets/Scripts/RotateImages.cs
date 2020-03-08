@@ -13,7 +13,7 @@ public class RotateImages : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(input.axis.x);
+        //Debug.Log(input.axis.x);
         if (input.axis.magnitude > 0.1)
         {
             //TODO: lerp rotation
