@@ -32,4 +32,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Maria.unity
     guid: eefb54dd35ec3dd4e9c130e56130a630
+  - enabled: 1
+    path: Assets/Scenes/Anna.unity
+    guid: eba3604322e2a2e4fa28a37b4187d60a
+  - enabled: 1
+    path: Assets/Scenes/Barbara.unity
+    guid: e5a61482ee1e34249a0d0fe818972d51
+  - enabled: 1
+    path: Assets/Scenes/Sini.unity
+    guid: 778f0bf7d77c2f34fa5722892e05e794
   m_configObjects: {}

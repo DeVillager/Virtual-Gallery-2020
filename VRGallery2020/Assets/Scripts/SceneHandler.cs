@@ -23,7 +23,7 @@ public class SceneHandler : MonoBehaviour
 
     public void PointerClick(object sender, PointerEventArgs e)
     {
-        if (e.target.name == "Exit" || e.target.tag == "Loader")
+        if (e.target.tag == "Exit" || e.target.tag == "Loader")
         {
             Debug.Log("Exit was clicked");
             e.target.GetComponent<SteamVR_LoadLevel>().Trigger();
@@ -45,25 +45,19 @@ public class SceneHandler : MonoBehaviour
 
     public void PointerInside(object sender, PointerEventArgs e)
     {
-        if (e.target.name == "Cube")
+        if (e.target.tag == "Loader")
         {
-            Debug.Log("Cube was entered");
-        }
-        else if (e.target.name == "Button")
-        {
-            Debug.Log("Button was entered");
+            Debug.Log($"Show {e.target.name} info");
+            e.target.GetComponent<ArtistImage>().ShowInfo();
         }
     }
 
     public void PointerOutside(object sender, PointerEventArgs e)
     {
-        if (e.target.name == "Cube")
+        if (e.target.tag == "Loader")
         {
-            Debug.Log("Cube was exited");
-        }
-        else if (e.target.name == "Button")
-        {
-            Debug.Log("Button was exited");
+            Debug.Log($"Hide {e.target.name} info");
+            e.target.GetComponent<ArtistImage>().HideInfo();
         }
     }
 }

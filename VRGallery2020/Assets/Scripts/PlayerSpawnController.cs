@@ -6,6 +6,7 @@ public class PlayerSpawnController : MonoBehaviour
     public GameObject Player;
     public GameObject PlayerPrefab;
     public bool laserEnabled = true;
+    public bool controllerEnabled = false;
     public GameObject SpawnLocation;
 
     void Awake()
@@ -25,7 +26,7 @@ public class PlayerSpawnController : MonoBehaviour
 
         //GameObject.Find("New Game Object").SetActive(laserEnabled);
         Player.GetComponentInChildren<SteamVR_LaserPointer>().enabled = laserEnabled;
-
+        Player.GetComponentInChildren<ShowControllers>().showControllers = controllerEnabled;
     }
 
 }

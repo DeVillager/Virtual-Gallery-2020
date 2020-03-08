@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using Valve.VR;
 using Valve.VR.InteractionSystem;
+using DigitalRuby.SoundManagerNamespace;
 
 public class Duplicate : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class Duplicate : MonoBehaviour
     public int amount;
     public float distance;
     public Transform parent;
+    public AudioSource blob;
+    public bool original = false;
 
     private float phi = 1.618f;
     private Vector3 position;
@@ -26,8 +29,13 @@ public class Duplicate : MonoBehaviour
             SteamVR_Input_Sources source = interactable.attachedToHand.handType;
             if (duplicateAction[source].stateDown)
             {
+                blob.PlayOneShot(blob.clip);
                 MakeDuplicates(amount);
             }
+        }
+        if (!original && transform.parent != parent)
+        {
+            transform.SetParent(parent);
         }
     }
 
@@ -57,6 +65,7 @@ public class Duplicate : MonoBehaviour
         created.transform.SetParent(parent);
         created.GetComponent<Rigidbody>().isKinematic = false;
         created.transform.localScale = scale;
+        created.GetComponent<Duplicate>().original = false;
     }
 
 }

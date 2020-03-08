@@ -4,33 +4,61 @@ using Valve.VR.InteractionSystem;
 
 public class DuplicateManager : MonoBehaviour
 {
-    public SteamVR_Action_Boolean deleteAction;
-    private Interactable interactable;
+    //private Interactable interactable;
 
-    void Start()
+    //void Start()
+    //{
+    //    interactable = GetComponent<Interactable>();
+    //}
+
+    public SteamVR_Action_Boolean TriggerClick;
+    public Transform container;
+    public GameObject sphere;
+
+    private SteamVR_Input_Sources inputSource;
+    private bool handHover = false;
+
+
+    private void OnEnable()
     {
-        interactable = GetComponent<Interactable>();
+        TriggerClick.AddOnStateDownListener(Press, inputSource);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDisable()
     {
-        if (interactable.attachedToHand != null)
+        TriggerClick.RemoveOnStateDownListener(Press, inputSource);
+    }
+
+    public void OnHandHoverBegin()
+    {
+        handHover = true;
+    }
+
+    public void OnHandHoverEnd()
+    {
+        handHover = false;
+    }
+
+
+
+    private void Press(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
+    {
+        if (handHover)
         {
-            SteamVR_Input_Sources source = interactable.attachedToHand.handType;
-            if (deleteAction[source].stateDown)
-            {
-                RemoveDuplicates();
-            }
+            print("Success");
+            RemoveDuplicates();
         }
     }
+
 
     void RemoveDuplicates()
     {
         Debug.Log("Duplicates destroyed");
-        foreach (Transform child in transform)
+        foreach (Transform child in container)
         {
             Destroy(child.gameObject);
         }
+        sphere.transform.position = transform.position + Vector3.up * 0.2f;
+        sphere.GetComponent<Rigidbody>().velocity = Vector3.zero;
     }
 }
