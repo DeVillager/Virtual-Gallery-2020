@@ -3520,22 +3520,22 @@ PrefabInstance:
     - target: {fileID: 3075626454783621315, guid: 28cc30a6112a34142892785a7e4588c7,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.033747416
+      value: -0.0052701575
       objectReference: {fileID: 0}
     - target: {fileID: 3075626454783621315, guid: 28cc30a6112a34142892785a7e4588c7,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.81595314
+      value: -0.66351783
       objectReference: {fileID: 0}
     - target: {fileID: 3075626454783621315, guid: 28cc30a6112a34142892785a7e4588c7,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.047877476
+      value: 0.031104203
       objectReference: {fileID: 0}
     - target: {fileID: 3075626454783621315, guid: 28cc30a6112a34142892785a7e4588c7,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.575143
+      value: 0.7474951
       objectReference: {fileID: 0}
     - target: {fileID: 3075626454783621315, guid: 28cc30a6112a34142892785a7e4588c7,
         type: 3}
@@ -3545,17 +3545,17 @@ PrefabInstance:
     - target: {fileID: 3075626454783621315, guid: 28cc30a6112a34142892785a7e4588c7,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -6.7160006
+      value: 1.914
       objectReference: {fileID: 0}
     - target: {fileID: 3075626454783621315, guid: 28cc30a6112a34142892785a7e4588c7,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 109.642006
+      value: -83.137
       objectReference: {fileID: 0}
     - target: {fileID: 3075626454783621315, guid: 28cc30a6112a34142892785a7e4588c7,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 3.068
       objectReference: {fileID: 0}
     - target: {fileID: 3075626454783621315, guid: 28cc30a6112a34142892785a7e4588c7,
         type: 3}
@@ -5854,11 +5854,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3455094835149759325, guid: 9adfa74a85a02d4418dac0c1718be8c6,
-        type: 3}
-      propertyPath: audioSource
-      value: 
-      objectReference: {fileID: 1779572629}
     - target: {fileID: 975425996795179307, guid: 9adfa74a85a02d4418dac0c1718be8c6,
         type: 3}
       propertyPath: Loop
@@ -5874,6 +5869,11 @@ PrefabInstance:
       propertyPath: m_Volume
       value: 0.148
       objectReference: {fileID: 0}
+    - target: {fileID: 3455094835149759325, guid: 9adfa74a85a02d4418dac0c1718be8c6,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1779572629}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9adfa74a85a02d4418dac0c1718be8c6, type: 3}
 --- !u!82 &1779572629 stripped

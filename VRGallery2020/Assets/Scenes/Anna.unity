@@ -9860,16 +9860,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3455094835149759325, guid: 9adfa74a85a02d4418dac0c1718be8c6,
-        type: 3}
-      propertyPath: cityNoise
-      value: 
-      objectReference: {fileID: 990995316}
-    - target: {fileID: 3455094835149759325, guid: 9adfa74a85a02d4418dac0c1718be8c6,
-        type: 3}
-      propertyPath: audioSource
-      value: 
-      objectReference: {fileID: 990995316}
     - target: {fileID: 975425996795179307, guid: 9adfa74a85a02d4418dac0c1718be8c6,
         type: 3}
       propertyPath: Loop
@@ -9885,6 +9875,16 @@ PrefabInstance:
       propertyPath: m_Volume
       value: 0.521
       objectReference: {fileID: 0}
+    - target: {fileID: 3455094835149759325, guid: 9adfa74a85a02d4418dac0c1718be8c6,
+        type: 3}
+      propertyPath: cityNoise
+      value: 
+      objectReference: {fileID: 990995316}
+    - target: {fileID: 3455094835149759325, guid: 9adfa74a85a02d4418dac0c1718be8c6,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 990995316}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9adfa74a85a02d4418dac0c1718be8c6, type: 3}
 --- !u!1 &324018163

@@ -7,6 +7,7 @@ public class PlayerSpawnController : MonoBehaviour
     public GameObject PlayerPrefab;
     public bool laserEnabled = true;
     public bool controllerEnabled = false;
+    public bool stickerEnabled = false;
     public GameObject SpawnLocation;
 
     void Awake()
@@ -27,6 +28,20 @@ public class PlayerSpawnController : MonoBehaviour
         //GameObject.Find("New Game Object").SetActive(laserEnabled);
         Player.GetComponentInChildren<SteamVR_LaserPointer>().enabled = laserEnabled;
         Player.GetComponentInChildren<ShowControllers>().showControllers = controllerEnabled;
+        StickerPlacer[] stickerPlacerList = Player.GetComponentsInChildren<StickerPlacer>();
+        foreach (var stickerPlacer in stickerPlacerList)
+        {
+            stickerPlacer.enabled = stickerEnabled;
+        }
+        //if (stickerEnabled)
+        //{
+        //    Player.GetComponentInChildren<SteamVR_LaserPointer>().gameObject.AddComponent<StickerPlacer>();
+        //}
+    }
+
+    public GameObject GetPlayer()
+    {
+        return Player;
     }
 
 }
