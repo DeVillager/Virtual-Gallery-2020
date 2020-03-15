@@ -89,9 +89,11 @@ namespace Valve.VR
         ulong progressBarOverlayHandle = OpenVR.k_ulOverlayHandleInvalid;
 
         public bool autoTriggerOnEnable = false;
+        private AudioSource warp;
 
         void OnEnable()
         {
+            warp = GetComponent<AudioSource>();
             if (autoTriggerOnEnable)
                 Trigger();
         }
@@ -234,6 +236,7 @@ namespace Valve.VR
         // Corourtine to handle all the steps across loading boundaries.
         IEnumerator LoadLevel()
         {
+            warp.Play();
             // Optionally rotate loading screen transform around the camera into view.
             // We assume here that the loading screen is already facing toward the origin,
             // and that the progress bar transform (if any) is a child and will follow along.

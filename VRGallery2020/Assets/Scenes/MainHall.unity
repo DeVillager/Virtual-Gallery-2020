@@ -24,9 +24,9 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 3
+  m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: cc421da483ed06c49933077a621bff25, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 9b01d7c0e4dfa854eb5dfe2624e27c0f, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.084667236, g: 0.06535859, b: 0.14226942, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -88,7 +88,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: c4e11f32724873a45ae968536be8970c,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -123,6 +124,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LehtipuskaO (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506230972101290680, guid: a0e525b06fda7644ba54db21b3834d18,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3868949128549786520, guid: a0e525b06fda7644ba54db21b3834d18,
         type: 3}
@@ -198,6 +204,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LehtipuskaP (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116486165743584643, guid: be5c0e9e0750cc74c975d14dad2132f9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 116524433825725925, guid: be5c0e9e0750cc74c975d14dad2132f9,
         type: 3}
@@ -289,6 +300,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LehtipuskaR (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1825266978721987170, guid: bb9e7048ade9e9646aad86268734da09,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3012906565073599033, guid: bb9e7048ade9e9646aad86268734da09,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -363,9 +379,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmu1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 48564936e61d11d4a8be73853c763953, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 48564936e61d11d4a8be73853c763953, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.76363325
+      value: -0.68
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 48564936e61d11d4a8be73853c763953, type: 3}
       propertyPath: m_LocalPosition.y
@@ -373,7 +393,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 48564936e61d11d4a8be73853c763953, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.41
+      value: -5.18
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 48564936e61d11d4a8be73853c763953, type: 3}
       propertyPath: m_LocalRotation.x
@@ -425,6 +445,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: aebcd26bdc907754297ee0eeed5f41db, type: 3}
       propertyPath: m_Name
       value: Palmu3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: aebcd26bdc907754297ee0eeed5f41db, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: aebcd26bdc907754297ee0eeed5f41db, type: 3}
       propertyPath: m_LocalPosition.x
@@ -489,6 +513,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Barbara
+      objectReference: {fileID: 0}
+    - target: {fileID: 3984992461374002172, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3984992461374002173, guid: f740ae826e606f940a258f5038df6fe6,
         type: 3}
@@ -600,6 +629,16 @@ PrefabInstance:
       propertyPath: m_textInfo.wordCount
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1864764985983808131, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864764985730408868, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f740ae826e606f940a258f5038df6fe6, type: 3}
 --- !u!4 &112363507 stripped
@@ -619,6 +658,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Anna
+      objectReference: {fileID: 0}
+    - target: {fileID: 3984992461374002172, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3984992461374002173, guid: f740ae826e606f940a258f5038df6fe6,
         type: 3}
@@ -730,6 +774,16 @@ PrefabInstance:
       propertyPath: m_textInfo.spaceCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1864764985983808131, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864764985730408868, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f740ae826e606f940a258f5038df6fe6, type: 3}
 --- !u!4 &211057264 stripped
@@ -793,7 +847,7 @@ PrefabInstance:
     - target: {fileID: 8767250976445694000, guid: 38d4dd27517f0bf4cbe49db62d9c38b0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8767250976445694000, guid: 38d4dd27517f0bf4cbe49db62d9c38b0,
         type: 3}
@@ -902,7 +956,7 @@ Transform:
   m_LocalScale: {x: 2.01, y: 2.01, z: 2.01}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &311353435
 PrefabInstance:
@@ -949,7 +1003,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4622981333497442, guid: dd3ee0c97aab8a7498c9292f3482f60b, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4622981333497442, guid: dd3ee0c97aab8a7498c9292f3482f60b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -973,6 +1027,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd3ee0c97aab8a7498c9292f3482f60b, type: 3}
+--- !u!1 &323013192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 323013194}
+  - component: {fileID: 323013193}
+  m_Layer: 0
+  m_Name: Point Light (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!108 &323013193
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323013192}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 0, g: 1, b: 0.2531309, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 2
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &323013194
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323013192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.57, y: 2, z: -2.28}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &323192433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -984,6 +1107,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LehtipuskaG (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2493832376437607689, guid: a3f24378506462146956ff22301c1c62,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9147470719231431003, guid: a3f24378506462146956ff22301c1c62,
         type: 3}
@@ -1075,6 +1203,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LehtipuskaG (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2493832376437607689, guid: a3f24378506462146956ff22301c1c62,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9147470719231431003, guid: a3f24378506462146956ff22301c1c62,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1165,6 +1298,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LehtipuskaG (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2493832376437607689, guid: a3f24378506462146956ff22301c1c62,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9147470719231431003, guid: a3f24378506462146956ff22301c1c62,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1239,6 +1377,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Inka
+      objectReference: {fileID: 0}
+    - target: {fileID: 3984992461374002172, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3984992461374002173, guid: f740ae826e606f940a258f5038df6fe6,
         type: 3}
@@ -1350,6 +1493,16 @@ PrefabInstance:
       propertyPath: m_textInfo.wordCount
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1864764985983808131, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864764985730408868, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f740ae826e606f940a258f5038df6fe6, type: 3}
 --- !u!4 &403253999 stripped
@@ -1369,6 +1522,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LehtipuskaG (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2493832376437607689, guid: a3f24378506462146956ff22301c1c62,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9147470719231431003, guid: a3f24378506462146956ff22301c1c62,
         type: 3}
@@ -1460,6 +1618,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LehtipuskaG (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2493832376437607689, guid: a3f24378506462146956ff22301c1c62,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9147470719231431003, guid: a3f24378506462146956ff22301c1c62,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1538,75 +1701,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 408800907}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &455057839
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 455057840}
-  - component: {fileID: 455057841}
-  m_Layer: 0
-  m_Name: Directional Light (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &455057840
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 455057839}
-  m_LocalRotation: {x: 0.5095743, y: -0, z: -0, w: 0.8604267}
-  m_LocalPosition: {x: 0, y: 3.67, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 522880340}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 61.271004, y: 0, z: 0}
---- !u!108 &455057841
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 455057839}
-  m_Enabled: 1
-  serializedVersion: 8
-  m_Type: 1
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
-  m_Range: 10
-  m_SpotAngle: 30
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!1001 &489870856
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1618,6 +1712,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LehtipuskaR (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825266978721987170, guid: bb9e7048ade9e9646aad86268734da09,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3012906565073599033, guid: bb9e7048ade9e9646aad86268734da09,
         type: 3}
@@ -1709,6 +1808,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LehtipuskaP (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8116486165743584643, guid: be5c0e9e0750cc74c975d14dad2132f9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 116524433825725925, guid: be5c0e9e0750cc74c975d14dad2132f9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1788,6 +1892,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmu2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 619bf0687cf297441ac2fd4cda4c1138, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 619bf0687cf297441ac2fd4cda4c1138, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.62
@@ -1840,40 +1948,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 520150923}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &522880339
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 522880340}
-  m_Layer: 0
-  m_Name: Lights
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &522880340
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 522880339}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1522926234}
-  - {fileID: 1838098732}
-  - {fileID: 1049219499}
-  - {fileID: 455057840}
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &538041706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1885,6 +1959,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LehtipuskaP (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116486165743584643, guid: be5c0e9e0750cc74c975d14dad2132f9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 116524433825725925, guid: be5c0e9e0750cc74c975d14dad2132f9,
         type: 3}
@@ -1975,6 +2054,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmu2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 619bf0687cf297441ac2fd4cda4c1138, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 619bf0687cf297441ac2fd4cda4c1138, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.44
@@ -2038,6 +2121,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LehtipuskaP (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116486165743584643, guid: be5c0e9e0750cc74c975d14dad2132f9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 116524433825725925, guid: be5c0e9e0750cc74c975d14dad2132f9,
         type: 3}
@@ -2128,6 +2216,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LehtipuskaG (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2493832376437607689, guid: a3f24378506462146956ff22301c1c62,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9147470719231431003, guid: a3f24378506462146956ff22301c1c62,
         type: 3}
@@ -2247,7 +2340,7 @@ PrefabInstance:
     - target: {fileID: 8731246645069547582, guid: fead5bb46287caf44931900975ce6692,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8731246645069547582, guid: fead5bb46287caf44931900975ce6692,
         type: 3}
@@ -2281,6 +2374,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fead5bb46287caf44931900975ce6692, type: 3}
+--- !u!1 &681663612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 681663614}
+  - component: {fileID: 681663613}
+  m_Layer: 0
+  m_Name: Point Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!108 &681663613
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681663612}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 1, g: 0.77487123, b: 0.43867922, a: 1}
+  m_Intensity: 2.98
+  m_Range: 8.75787
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &681663614
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681663612}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.016166747, y: 3.98, z: 0.006834507}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &729290853
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2292,6 +2454,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LehtipuskaG (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2493832376437607689, guid: a3f24378506462146956ff22301c1c62,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9147470719231431003, guid: a3f24378506462146956ff22301c1c62,
         type: 3}
@@ -2383,6 +2550,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LehtipuskaR (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1825266978721987170, guid: bb9e7048ade9e9646aad86268734da09,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3012906565073599033, guid: bb9e7048ade9e9646aad86268734da09,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2467,6 +2639,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hilma
+      objectReference: {fileID: 0}
+    - target: {fileID: 3984992461374002172, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3984992461374002173, guid: f740ae826e606f940a258f5038df6fe6,
         type: 3}
@@ -2578,6 +2755,16 @@ PrefabInstance:
       propertyPath: m_textInfo.wordCount
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1864764985983808131, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864764985730408868, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f740ae826e606f940a258f5038df6fe6, type: 3}
 --- !u!4 &769435316 stripped
@@ -2655,6 +2842,75 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3984992460456209486}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1023604556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1023604558}
+  - component: {fileID: 1023604557}
+  m_Layer: 0
+  m_Name: Point Light (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!108 &1023604557
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023604556}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 1, g: 0, b: 0.8228655, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 2
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1023604558
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023604556}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.79, y: 2, z: 1.47}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1046861397
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2666,6 +2922,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tiago
+      objectReference: {fileID: 0}
+    - target: {fileID: 3984992461374002172, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3984992461374002173, guid: f740ae826e606f940a258f5038df6fe6,
         type: 3}
@@ -2784,6 +3045,16 @@ PrefabInstance:
       propertyPath: m_textInfo.lineCount
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1864764985983808131, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864764985730408868, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f740ae826e606f940a258f5038df6fe6, type: 3}
 --- !u!4 &1046861398 stripped
@@ -2819,13 +3090,13 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 0.3820755, b: 0.6443158, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2854,13 +3125,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049219497}
-  m_LocalRotation: {x: 0.8395785, y: -0, z: -0, w: 0.5432384}
-  m_LocalPosition: {x: 0, y: 3.67, z: 0}
+  m_LocalRotation: {x: 0.7037726, y: 0.06858656, z: 0.06858656, w: 0.7037726}
+  m_LocalPosition: {x: 0.93, y: 3.67, z: -0.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 522880340}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 114.190994, y: -0.000015258789, z: -0.000015258789}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 101.13199, y: -90, z: -90}
 --- !u!1001 &1061838003
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2872,6 +3143,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LehtipuskaO (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506230972101290680, guid: a0e525b06fda7644ba54db21b3834d18,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3868949128549786520, guid: a0e525b06fda7644ba54db21b3834d18,
         type: 3}
@@ -2963,6 +3239,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LehtipuskaG (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 2493832376437607689, guid: a3f24378506462146956ff22301c1c62,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9147470719231431003, guid: a3f24378506462146956ff22301c1c62,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3052,6 +3333,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LehtipuskaP (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116486165743584643, guid: be5c0e9e0750cc74c975d14dad2132f9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 116524433825725925, guid: be5c0e9e0750cc74c975d14dad2132f9,
         type: 3}
@@ -3166,7 +3452,7 @@ PrefabInstance:
     - target: {fileID: 4455648539496275100, guid: e83bb9b4fac23224faf8c2721bc2d852,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 4455648539496275100, guid: e83bb9b4fac23224faf8c2721bc2d852,
         type: 3}
@@ -3232,6 +3518,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Janina
+      objectReference: {fileID: 0}
+    - target: {fileID: 3984992461374002172, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3984992461374002173, guid: f740ae826e606f940a258f5038df6fe6,
         type: 3}
@@ -3343,6 +3634,16 @@ PrefabInstance:
       propertyPath: m_textInfo.wordCount
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1864764985983808131, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864764985730408868, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f740ae826e606f940a258f5038df6fe6, type: 3}
 --- !u!4 &1338284562 stripped
@@ -3390,7 +3691,7 @@ Transform:
   - {fileID: 112363507}
   - {fileID: 1701645768}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1384514608
 PrefabInstance:
@@ -3403,6 +3704,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Maria
+      objectReference: {fileID: 0}
+    - target: {fileID: 3984992461374002172, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3984992461374002173, guid: f740ae826e606f940a258f5038df6fe6,
         type: 3}
@@ -3514,6 +3820,16 @@ PrefabInstance:
       propertyPath: m_textInfo.wordCount
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1864764985983808131, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864764985730408868, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f740ae826e606f940a258f5038df6fe6, type: 3}
 --- !u!4 &1384514609 stripped
@@ -3569,7 +3885,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1492705991
 PrefabInstance:
@@ -3626,7 +3942,7 @@ PrefabInstance:
     - target: {fileID: 3736896462441051783, guid: cf9ee4eef0f302d4cb205e8d818bf1ec,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 3736896462441051783, guid: cf9ee4eef0f302d4cb205e8d818bf1ec,
         type: 3}
@@ -3670,75 +3986,73 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf9ee4eef0f302d4cb205e8d818bf1ec, type: 3}
---- !u!1 &1522926232
-GameObject:
+--- !u!1001 &1513942775
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1522926234}
-  - component: {fileID: 1522926233}
-  m_Layer: 0
-  m_Name: Area Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!108 &1522926233
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1522926232}
-  m_Enabled: 1
-  serializedVersion: 8
-  m_Type: 3
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
-  m_Range: 10
-  m_SpotAngle: 30
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_Lightmapping: 2
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!4 &1522926234
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2004562411}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 619bf0687cf297441ac2fd4cda4c1138, type: 3}
+      propertyPath: m_Name
+      value: Palmu2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 619bf0687cf297441ac2fd4cda4c1138, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 619bf0687cf297441ac2fd4cda4c1138, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 619bf0687cf297441ac2fd4cda4c1138, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.26856622
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 619bf0687cf297441ac2fd4cda4c1138, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 619bf0687cf297441ac2fd4cda4c1138, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 619bf0687cf297441ac2fd4cda4c1138, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 619bf0687cf297441ac2fd4cda4c1138, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 619bf0687cf297441ac2fd4cda4c1138, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 619bf0687cf297441ac2fd4cda4c1138, type: 3}
+      propertyPath: m_RootOrder
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 619bf0687cf297441ac2fd4cda4c1138, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 619bf0687cf297441ac2fd4cda4c1138, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 619bf0687cf297441ac2fd4cda4c1138, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 619bf0687cf297441ac2fd4cda4c1138, type: 3}
+--- !u!4 &1513942776 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 619bf0687cf297441ac2fd4cda4c1138,
+    type: 3}
+  m_PrefabInstance: {fileID: 1513942775}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1522926232}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.187, y: 0.060875416, z: -2.633}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 522880340}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &1581194108
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3750,6 +4064,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LehtipuskaR (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825266978721987170, guid: bb9e7048ade9e9646aad86268734da09,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3012906565073599033, guid: bb9e7048ade9e9646aad86268734da09,
         type: 3}
@@ -3825,6 +4144,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LehtipuskaP (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116486165743584643, guid: be5c0e9e0750cc74c975d14dad2132f9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 116524433825725925, guid: be5c0e9e0750cc74c975d14dad2132f9,
         type: 3}
@@ -3915,6 +4239,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sini
+      objectReference: {fileID: 0}
+    - target: {fileID: 3984992461374002172, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3984992461374002173, guid: f740ae826e606f940a258f5038df6fe6,
         type: 3}
@@ -4026,6 +4355,16 @@ PrefabInstance:
       propertyPath: m_textInfo.wordCount
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1864764985983808131, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864764985730408868, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f740ae826e606f940a258f5038df6fe6, type: 3}
 --- !u!4 &1701645768 stripped
@@ -4045,6 +4384,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Trev
+      objectReference: {fileID: 0}
+    - target: {fileID: 3984992461374002172, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3984992461374002173, guid: f740ae826e606f940a258f5038df6fe6,
         type: 3}
@@ -4156,6 +4500,16 @@ PrefabInstance:
       propertyPath: m_textInfo.wordCount
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1864764985983808131, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864764985730408868, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f740ae826e606f940a258f5038df6fe6, type: 3}
 --- !u!4 &1726108074 stripped
@@ -4214,7 +4568,7 @@ PrefabInstance:
     - target: {fileID: 971324359334019062, guid: 9adfa74a85a02d4418dac0c1718be8c6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 971324359334019062, guid: 9adfa74a85a02d4418dac0c1718be8c6,
         type: 3}
@@ -4431,6 +4785,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LehtipuskaR (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1825266978721987170, guid: bb9e7048ade9e9646aad86268734da09,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3012906565073599033, guid: bb9e7048ade9e9646aad86268734da09,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4494,6 +4853,75 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1736177884}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1757908702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1757908704}
+  - component: {fileID: 1757908703}
+  m_Layer: 0
+  m_Name: Directional Light (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1757908703
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757908702}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 0, g: 1, b: 0.18460178, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 1
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1757908704
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757908702}
+  m_LocalRotation: {x: 0.70110375, y: -0.09194315, z: -0.09194315, w: 0.70110375}
+  m_LocalPosition: {x: -1.04, y: 3.67, z: -0.36}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 104.941986, y: 89.99999, z: 89.99999}
 --- !u!1001 &1837522621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4505,6 +4933,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LehtipuskaP (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116486165743584643, guid: be5c0e9e0750cc74c975d14dad2132f9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 116524433825725925, guid: be5c0e9e0750cc74c975d14dad2132f9,
         type: 3}
@@ -4569,75 +5002,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1837522621}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1838098731
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1838098732}
-  - component: {fileID: 1838098733}
-  m_Layer: 0
-  m_Name: Point Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1838098732
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1838098731}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.05, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 522880340}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &1838098733
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1838098731}
-  m_Enabled: 1
-  serializedVersion: 8
-  m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.67
-  m_Range: 8.24
-  m_SpotAngle: 30
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 1
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!1001 &1843338924
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4649,6 +5013,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LehtipuskaO (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506230972101290680, guid: a0e525b06fda7644ba54db21b3834d18,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3868949128549786520, guid: a0e525b06fda7644ba54db21b3834d18,
         type: 3}
@@ -4739,6 +5108,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LehtipuskaO (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506230972101290680, guid: a0e525b06fda7644ba54db21b3834d18,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3868949128549786520, guid: a0e525b06fda7644ba54db21b3834d18,
         type: 3}
@@ -4836,6 +5210,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LehtipuskaR (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1825266978721987170, guid: bb9e7048ade9e9646aad86268734da09,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3012906565073599033, guid: bb9e7048ade9e9646aad86268734da09,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4925,6 +5304,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmu2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 619bf0687cf297441ac2fd4cda4c1138, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 619bf0687cf297441ac2fd4cda4c1138, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.14
@@ -4988,6 +5371,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Dor
+      objectReference: {fileID: 0}
+    - target: {fileID: 3984992461374002172, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3984992461374002173, guid: f740ae826e606f940a258f5038df6fe6,
         type: 3}
@@ -5099,6 +5487,16 @@ PrefabInstance:
       propertyPath: m_textInfo.wordCount
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1864764985983808131, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864764985730408868, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f740ae826e606f940a258f5038df6fe6, type: 3}
 --- !u!4 &1954007238 stripped
@@ -5118,6 +5516,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LehtipuskaO (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506230972101290680, guid: a0e525b06fda7644ba54db21b3834d18,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3868949128549786520, guid: a0e525b06fda7644ba54db21b3834d18,
         type: 3}
@@ -5274,7 +5677,7 @@ RectTransform:
   m_Children:
   - {fileID: 1735903327}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: -180.00002, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5346,8 +5749,9 @@ Transform:
   - {fileID: 1061838004}
   - {fileID: 1064759446}
   - {fileID: 520150924}
+  - {fileID: 1513942776}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2007503692
 PrefabInstance:
@@ -5360,6 +5764,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LehtipuskaG (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2493832376437607689, guid: a3f24378506462146956ff22301c1c62,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9147470719231431003, guid: a3f24378506462146956ff22301c1c62,
         type: 3}
@@ -5451,6 +5860,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LehtipuskaO (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8506230972101290680, guid: a0e525b06fda7644ba54db21b3834d18,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3868949128549786520, guid: a0e525b06fda7644ba54db21b3834d18,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5538,6 +5952,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LehtipuskaR
       objectReference: {fileID: 0}
+    - target: {fileID: 1825266978721987170, guid: bb9e7048ade9e9646aad86268734da09,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3012906565073599033, guid: bb9e7048ade9e9646aad86268734da09,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5618,6 +6037,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Annika
+      objectReference: {fileID: 0}
+    - target: {fileID: 3984992461374002172, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3984992461374002173, guid: f740ae826e606f940a258f5038df6fe6,
         type: 3}
@@ -5716,6 +6140,16 @@ PrefabInstance:
       propertyPath: m_textInfo.wordCount
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1864764985983808131, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864764985730408868, guid: f740ae826e606f940a258f5038df6fe6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f740ae826e606f940a258f5038df6fe6, type: 3}
 --- !u!1001 &4890317944915889843
@@ -5729,6 +6163,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LehtipuskaG
+      objectReference: {fileID: 0}
+    - target: {fileID: 2493832376437607689, guid: a3f24378506462146956ff22301c1c62,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9147470719231431003, guid: a3f24378506462146956ff22301c1c62,
         type: 3}
@@ -5798,6 +6237,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LehtipuskaP
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116486165743584643, guid: be5c0e9e0750cc74c975d14dad2132f9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 116524433825725925, guid: be5c0e9e0750cc74c975d14dad2132f9,
         type: 3}
@@ -5906,7 +6350,7 @@ PrefabInstance:
     - target: {fileID: 4455648539496275100, guid: e83bb9b4fac23224faf8c2721bc2d852,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 4455648539496275100, guid: e83bb9b4fac23224faf8c2721bc2d852,
         type: 3}
@@ -5941,6 +6385,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LehtipuskaO
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506230972101290680, guid: a0e525b06fda7644ba54db21b3834d18,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3868949128549786520, guid: a0e525b06fda7644ba54db21b3834d18,
         type: 3}
@@ -6010,6 +6459,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LehtipuskaT
+      objectReference: {fileID: 0}
+    - target: {fileID: 2973415435139765431, guid: ab93129315e2dd54aa8266f2362d1263,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1631039972557668710, guid: ab93129315e2dd54aa8266f2362d1263,
         type: 3}

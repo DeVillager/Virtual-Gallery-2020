@@ -504,8 +504,10 @@ MonoBehaviour:
     type: 3}
   layerMask:
     serializedVersion: 2
-    m_Bits: 279
-  distance: 0.2
+    m_Bits: 1303
+  distance: 0.35
+  hitDistanceUp: 0.00015
+  hitDistanceUpAmount: 0.0001
   stickerAction:
     actionPath: /actions/default/in/GrabPinch
     needsReinit: 0
@@ -1641,8 +1643,10 @@ MonoBehaviour:
     type: 3}
   layerMask:
     serializedVersion: 2
-    m_Bits: 279
-  distance: 0.2
+    m_Bits: 1303
+  distance: 0.35
+  hitDistanceUp: 0.0001
+  hitDistanceUpAmount: 0.0001
   stickerAction:
     actionPath: /actions/default/in/GrabPinch
     needsReinit: 0

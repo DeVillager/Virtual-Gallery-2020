@@ -542,12 +542,12 @@ PrefabInstance:
     - target: {fileID: 3075626454783621315, guid: 28cc30a6112a34142892785a7e4588c7,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 1.786
       objectReference: {fileID: 0}
     - target: {fileID: 3075626454783621315, guid: 28cc30a6112a34142892785a7e4588c7,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.915
       objectReference: {fileID: 0}
     - target: {fileID: 3075626454783621315, guid: 28cc30a6112a34142892785a7e4588c7,
         type: 3}
@@ -1111,6 +1111,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5932348426251340641, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1215,16 +1225,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
-        type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffbebe2f86e98c44aba6d193a7cc70ee, type: 3}
