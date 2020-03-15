@@ -5,14 +5,15 @@ using Valve.VR.InteractionSystem;
 public class SceneChangeTouch : MonoBehaviour
 {
     public SteamVR_Action_Boolean loadAction;
+    public GameObject[] destroyables;
 
-    private SteamVR_LoadLevel loader;
+    private SteamVR_LoadLevel sceneLoader;
     private Interactable interactable;
     private bool handHover = false;
 
     void Start()
     {
-        loader = GetComponent<SteamVR_LoadLevel>();
+        sceneLoader = GetComponent<SteamVR_LoadLevel>();
         interactable = GetComponent<Interactable>();
     }
 
@@ -29,14 +30,17 @@ public class SceneChangeTouch : MonoBehaviour
 
     void Update()
     {
-        //if (interactable.attachedToHand != null)
-        //{
-        //SteamVR_Input_Sources source = ;
         if (loadAction.stateDown && handHover)
         {
             Debug.Log("Scene loaded");
-            loader.Trigger();
+            if (destroyables.Length > 0)
+            {
+                foreach (var item in destroyables)
+                {
+                    Destroy(item);
+                }
+            }
+            sceneLoader.Trigger();
         }
-        //}
     }
 }

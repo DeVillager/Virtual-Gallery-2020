@@ -58,6 +58,7 @@ public class DuplicateManager : MonoBehaviour
         {
             Destroy(child.gameObject);
         }
+        GetComponent<AudioSource>().Play();
         sphere.transform.position = transform.position + Vector3.up * 0.2f;
         sphere.GetComponent<Rigidbody>().velocity = Vector3.zero;
     }
