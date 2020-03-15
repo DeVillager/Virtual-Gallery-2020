@@ -18,25 +18,6 @@ public class GalleryRotater : MonoBehaviour
             Vector3 pos = new Vector3(Mathf.Cos(angle), 0, Mathf.Sin(angle)) * radius;
 
             Instantiate(planes[i], pos, Quaternion.Euler(0, -angle * Mathf.Rad2Deg, 0), this.transform);
-            //switch (i % 3)
-            //{
-
-            //    case 0:
-            //        //newObject[i] =
-            //        Instantiate(Resources.Load("Capsule", GameObject), pos, Quaternion.identity);
-            //        break;
-
-            //    case 1:
-            //        //newObject[i] =
-            //        Instantiate(Resources.Load("Cylinder", GameObject), pos, Quaternion.identity);
-            //        break;
-
-            //    case 2:
-            //        //newObject[i] =
-            //        Instantiate(Resources.Load("Cube", GameObject), pos, Quaternion.identity);
-            //        break;
-            //}
-
         }
     }
 

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3984992461374002171}
   - component: {fileID: 3984992461374002170}
   - component: {fileID: 4871034235531040016}
+  - component: {fileID: 9004460305306867790}
   m_Layer: 0
   m_Name: Artist Image
   m_TagString: Loader
@@ -147,6 +148,103 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   artistInfo: {fileID: 1864764985730408868}
+--- !u!82 &9004460305306867790
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3984992461374002172}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243366450046692526, guid: ec12f7772c03e4c4c9e4c2f1643595ad,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 0829e3ee79a7db246813880909b43994, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.128
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &5454728491023579622
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -158,6 +256,56 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
+        type: 3}
+      propertyPath: m_text
+      value: Artist X
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5932348426251340641, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
         type: 3}
@@ -273,56 +421,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ArtistInfo
-      objectReference: {fileID: 0}
-    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
-        type: 3}
-      propertyPath: m_fontSize
-      value: 0.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
-        type: 3}
-      propertyPath: m_fontSizeBase
-      value: 0.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
-        type: 3}
-      propertyPath: m_firstOverflowCharacterIndex
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
-        type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
-        type: 3}
-      propertyPath: m_text
-      value: Artist X
-      objectReference: {fileID: 0}
-    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
-        type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5932348425900496956, guid: ffbebe2f86e98c44aba6d193a7cc70ee,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffbebe2f86e98c44aba6d193a7cc70ee, type: 3}

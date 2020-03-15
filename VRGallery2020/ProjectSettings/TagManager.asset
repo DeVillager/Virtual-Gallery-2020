@@ -8,6 +8,7 @@ TagManager:
   - Loader
   - Image
   - Exit
+  - Gallery
   layers:
   - Default
   - TransparentFX

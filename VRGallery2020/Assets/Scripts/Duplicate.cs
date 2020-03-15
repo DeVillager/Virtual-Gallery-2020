@@ -8,8 +8,7 @@ public class Duplicate : MonoBehaviour
     public GameObject duplicate;
     public SteamVR_Action_Boolean duplicateAction;
     private Interactable interactable;
-    public int amount;
-    public float distance;
+    public float distance = 1f;
     public Transform parent;
     public AudioSource blob;
     public bool original = false;
@@ -20,6 +19,10 @@ public class Duplicate : MonoBehaviour
     void Start()
     {
         interactable = GetComponent<Interactable>();
+        if (gameObject.tag == "Gallery")
+        {
+            MakeDuplicates();
+        }
     }
 
     void Update()
@@ -30,7 +33,7 @@ public class Duplicate : MonoBehaviour
             if (duplicateAction[source].stateDown)
             {
                 blob.PlayOneShot(blob.clip);
-                MakeDuplicates(amount);
+                MakeDuplicates();
             }
         }
         if (!original && transform.parent != parent)
@@ -39,7 +42,7 @@ public class Duplicate : MonoBehaviour
         }
     }
 
-    void MakeDuplicates(int amount)
+    void MakeDuplicates()
     {
         Create(0, 1, phi);
         Create(0, -1, phi);
@@ -61,6 +64,7 @@ public class Duplicate : MonoBehaviour
         //position = transform.position + Vector3.up * distance;
         position = transform.position + new Vector3(x, y, z) * distance;
         GameObject created = Instantiate(duplicate, position, Quaternion.identity);
+        transform.LookAt(this.gameObject.transform);
         Vector3 scale = created.transform.localScale;
         created.transform.SetParent(parent);
         created.GetComponent<Rigidbody>().isKinematic = false;
