@@ -10,8 +10,11 @@ public class PlayerSpawnController : MonoBehaviour
     public bool stickerEnabled = false;
     public GameObject SpawnLocation;
 
+    public static PlayerSpawnController instance;
+
     void Awake()
     {
+        instance = this;
         if (GameObject.FindGameObjectWithTag("Player") != null)
         {
             //player already exists, so just move it to the spawn location and set the Player gameobject parameter
