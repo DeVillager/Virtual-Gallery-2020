@@ -8,13 +8,15 @@ using Valve.VR.InteractionSystem;
 public class WaterGun : MonoBehaviour
 {
     public SteamVR_Action_Boolean fireAction;
-    public GameObject waterEffect;
+    public ParticleSystem waterEffect;
     private Interactable interactable;
+    private bool isShooting = false;
     
     void Start()
     {
-        waterEffect.SetActive(false);
+        waterEffect.Stop();
         interactable = GetComponent<Interactable>();
+        
     }
 
     void Update()
@@ -24,15 +26,17 @@ public class WaterGun : MonoBehaviour
             SteamVR_Input_Sources source = interactable.attachedToHand.handType;
             if (fireAction[source].stateDown)
             {
-                waterEffect.SetActive(true);
+                //isShooting = true;
+                waterEffect.Play();
             }
             else if (fireAction[source].stateUp)
             {
-                waterEffect.SetActive(false);
+                waterEffect.Stop();
+                //isShooting = false;
             }
         } else
         {
-            waterEffect.SetActive(false);
+            waterEffect.Stop();
         }
     }
 

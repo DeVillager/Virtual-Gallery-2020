@@ -5,6 +5,7 @@ using UnityEngine;
 public class LookAtPlayer : MonoBehaviour
 {
     private GameObject player;
+    public bool forwardReversed = false;
 
     void Start()
     {
@@ -14,6 +15,8 @@ public class LookAtPlayer : MonoBehaviour
     void Update()
     {
         transform.LookAt(player.transform);
-        transform.Rotate(30, 180, 0);
+        float yRotation = forwardReversed ? 0 : 180;
+        float xRotation = forwardReversed ? 0 : 30;
+        transform.Rotate(xRotation, yRotation, 0);
     }
 }
