@@ -20,12 +20,14 @@ public class PlayerSpawnController : MonoBehaviour
             //player already exists, so just move it to the spawn location and set the Player gameobject parameter
             Player = GameObject.FindGameObjectWithTag("Player");
             Player.transform.position = SpawnLocation.transform.position;
+            Player.transform.rotation = SpawnLocation.transform.rotation;
         }
         else
         {
             //instantiate the player
-            Player = Instantiate(PlayerPrefab);
-            Player.transform.position = SpawnLocation.transform.position;
+            Player = Instantiate(PlayerPrefab, transform.position, transform.rotation);
+            //Player.transform.position = SpawnLocation.transform.position;
+            //Player.transform.rotation = SpawnLocation.transform.rotation;
         }
 
         //GameObject.Find("New Game Object").SetActive(laserEnabled);
@@ -36,10 +38,6 @@ public class PlayerSpawnController : MonoBehaviour
         {
             stickerPlacer.enabled = stickerEnabled;
         }
-        //if (stickerEnabled)
-        //{
-        //    Player.GetComponentInChildren<SteamVR_LaserPointer>().gameObject.AddComponent<StickerPlacer>();
-        //}
     }
 
     public GameObject GetPlayer()

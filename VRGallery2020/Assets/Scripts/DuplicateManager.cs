@@ -14,6 +14,7 @@ public class DuplicateManager : MonoBehaviour
     public SteamVR_Action_Boolean TriggerClick;
     public Transform container;
     public GameObject sphere;
+    public int childLimit = 60;
 
     private SteamVR_Input_Sources inputSource;
     private bool handHover = false;
@@ -61,5 +62,18 @@ public class DuplicateManager : MonoBehaviour
         GetComponent<AudioSource>().Play();
         sphere.transform.position = transform.position + Vector3.up * 0.2f;
         sphere.GetComponent<Rigidbody>().velocity = Vector3.zero;
+    }
+
+    private void Update()
+    {
+        int blobsAmount = container.childCount;
+        if (blobsAmount > childLimit)
+        {
+            int removeAmount = blobsAmount - childLimit;
+            for (int i = 0; i < removeAmount; i++)
+            {
+                Destroy(container.GetChild(i).gameObject);
+            }
+        }
     }
 }

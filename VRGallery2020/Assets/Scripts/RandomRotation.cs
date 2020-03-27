@@ -9,4 +9,6 @@ public class RandomRotation : MonoBehaviour
         gameObject.transform.Rotate(new Vector3(Random.Range(0, 180), Random.Range(0, 180), Random.Range(0, 180)), Space.Self);
        
     }
+
+    
 }
