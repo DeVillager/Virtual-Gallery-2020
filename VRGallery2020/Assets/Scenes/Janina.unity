@@ -951,12 +951,12 @@ Terrain:
   m_Enabled: 1
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: 5e8ec95b86d59804fa913c52c8caa1c8, type: 2}
-  m_TreeDistance: 5000
-  m_TreeBillboardDistance: 50
-  m_TreeCrossFadeLength: 5
-  m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
-  m_DetailObjectDensity: 1
+  m_TreeDistance: 1670
+  m_TreeBillboardDistance: 5
+  m_TreeCrossFadeLength: 0
+  m_TreeMaximumFullLODCount: 518
+  m_DetailObjectDistance: 250
+  m_DetailObjectDensity: 0.011
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
   m_HeightmapMaximumLOD: 0
@@ -1382,7 +1382,7 @@ PrefabInstance:
     - target: {fileID: 975425996795179307, guid: 9adfa74a85a02d4418dac0c1718be8c6,
         type: 3}
       propertyPath: m_Volume
-      value: 0.258
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 3455094835149759325, guid: 9adfa74a85a02d4418dac0c1718be8c6,
         type: 3}
@@ -1534,6 +1534,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8205242542855085368, guid: 6ac4b04743b49d149b6df1208b732258,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: edc0948cac87c1f4b80a6b040a580aad, type: 3}
+    - target: {fileID: 8205242542855085368, guid: 6ac4b04743b49d149b6df1208b732258,
+        type: 3}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205242542855085368, guid: 6ac4b04743b49d149b6df1208b732258,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 243366538953486582, guid: ec12f7772c03e4c4c9e4c2f1643595ad,
+        type: 2}
     - target: {fileID: 8205242542855085375, guid: 6ac4b04743b49d149b6df1208b732258,
         type: 3}
       propertyPath: highlightOnHover

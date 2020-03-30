@@ -11,12 +11,13 @@ public class WaterGun : MonoBehaviour
     public ParticleSystem waterEffect;
     private Interactable interactable;
     private bool isShooting = false;
+    private AudioSource audioSource;
     
     void Start()
     {
         waterEffect.Stop();
         interactable = GetComponent<Interactable>();
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -28,6 +29,7 @@ public class WaterGun : MonoBehaviour
             {
                 //isShooting = true;
                 waterEffect.Play();
+                audioSource.PlayOneShot(audioSource.clip);
             }
             else if (fireAction[source].stateUp)
             {
