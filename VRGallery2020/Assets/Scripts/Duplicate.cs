@@ -32,6 +32,7 @@ public class Duplicate : MonoBehaviour
             SteamVR_Input_Sources source = interactable.attachedToHand.handType;
             if (duplicateAction[source].stateDown)
             {
+                DuplicateManager.instance.SetActiveObject(gameObject);
                 blob.PlayOneShot(blob.clip);
                 MakeDuplicates();
             }

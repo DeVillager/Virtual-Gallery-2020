@@ -7,6 +7,7 @@ using Valve.VR.InteractionSystem;
 public class SimpleAttach : MonoBehaviour
 {
     private Interactable interactable;
+    public float pivotOffset = 0f;
 
     private void Start()
     {
@@ -22,7 +23,7 @@ public class SimpleAttach : MonoBehaviour
     {
         //hand.HideGrabHint();
     }
-    
+
 
     private void HandHoverUpdate(Hand hand)
     {
@@ -31,7 +32,14 @@ public class SimpleAttach : MonoBehaviour
 
         if (interactable.attachedToHand == null && grabType != GrabTypes.None)
         {
-            hand.AttachObject(gameObject, grabType);
+            if (pivotOffset != 0)
+            {
+                //hand.AttachObject(gameObject, grabType, Hand.AttachmentFlags.SnapOnAttact, attachmentOffset);
+            }
+            else
+            {
+                hand.AttachObject(gameObject, grabType);
+            }
             hand.HoverLock(interactable);
             hand.HideGrabHint();
         }

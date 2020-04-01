@@ -10,7 +10,7 @@ public class DuplicateManager : MonoBehaviour
     //{
     //    interactable = GetComponent<Interactable>();
     //}
-
+    public static DuplicateManager instance;
     public SteamVR_Action_Boolean TriggerClick;
     public Transform container;
     public GameObject sphere;
@@ -18,10 +18,11 @@ public class DuplicateManager : MonoBehaviour
 
     private SteamVR_Input_Sources inputSource;
     private bool handHover = false;
-
+    private GameObject activeObject;
 
     private void OnEnable()
     {
+        instance = this;
         TriggerClick.AddOnStateDownListener(Press, inputSource);
     }
 
@@ -64,6 +65,11 @@ public class DuplicateManager : MonoBehaviour
         sphere.GetComponent<Rigidbody>().velocity = Vector3.zero;
     }
 
+    public void SetActiveObject(GameObject go)
+    {
+        activeObject = go;
+    }
+
     private void Update()
     {
         int blobsAmount = container.childCount;
@@ -72,7 +78,11 @@ public class DuplicateManager : MonoBehaviour
             int removeAmount = blobsAmount - childLimit;
             for (int i = 0; i < removeAmount; i++)
             {
-                Destroy(container.GetChild(i).gameObject);
+                GameObject destroyable = container.GetChild(i).gameObject;
+                if (destroyable != activeObject)
+                {
+                    Destroy(destroyable);
+                }
             }
         }
     }
