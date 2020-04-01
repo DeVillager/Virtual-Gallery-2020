@@ -484,7 +484,7 @@ namespace DigitalRuby.SoundManagerNamespace
                         source.gameObject.name = "PersistedBySoundManager-" + source.gameObject.name + "-" + source.gameObject.GetInstanceID();
                     }
                     source.gameObject.transform.parent = null;
-                    GameObject.DontDestroyOnLoad(source.gameObject);
+                    //GameObject.DontDestroyOnLoad(source.gameObject);
                     persistedSounds.Add(s);
                 }
             }

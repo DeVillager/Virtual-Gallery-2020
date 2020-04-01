@@ -8,6 +8,7 @@ public class PlayerSpawnController : MonoBehaviour
     public bool laserEnabled = true;
     public bool controllerEnabled = false;
     public bool stickerEnabled = false;
+    public bool gravityEnabled = false;
     public GameObject SpawnLocation;
 
     public static PlayerSpawnController instance;
@@ -26,13 +27,24 @@ public class PlayerSpawnController : MonoBehaviour
         {
             //instantiate the player
             Player = Instantiate(PlayerPrefab, transform.position, transform.rotation);
-            //Player.transform.position = SpawnLocation.transform.position;
-            //Player.transform.rotation = SpawnLocation.transform.rotation;
+        }
+        Rigidbody[] rbs = Player.GetComponentsInChildren<Rigidbody>();
+        foreach (Rigidbody rb in rbs)
+        {
+            rb.useGravity = gravityEnabled;
+            rb.isKinematic = false;
         }
 
-        //GameObject.Find("New Game Object").SetActive(laserEnabled);
-        Player.GetComponentInChildren<SteamVR_LaserPointer>().enabled = laserEnabled;
-        Player.GetComponentInChildren<ShowControllers>().showControllers = controllerEnabled;
+        SteamVR_LaserPointer[] pointers = Player.GetComponentsInChildren<SteamVR_LaserPointer>();
+        foreach (SteamVR_LaserPointer pointer in pointers)
+        {
+            pointer.enabled = laserEnabled;
+        }
+        ShowControllers[] showControllers = Player.GetComponentsInChildren<ShowControllers>();
+        foreach (ShowControllers sc in showControllers)
+        {
+            sc.enabled = controllerEnabled;
+        }
         StickerPlacer[] stickerPlacerList = Player.GetComponentsInChildren<StickerPlacer>();
         foreach (var stickerPlacer in stickerPlacerList)
         {

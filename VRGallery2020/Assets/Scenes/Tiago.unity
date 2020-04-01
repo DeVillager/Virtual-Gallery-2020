@@ -2130,6 +2130,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Exit (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4586858875294395181, guid: 28cc30a6112a34142892785a7e4588c7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Exit
+      objectReference: {fileID: 0}
     - target: {fileID: 5648313446425262986, guid: 28cc30a6112a34142892785a7e4588c7,
         type: 3}
       propertyPath: loadAsync
@@ -4143,6 +4148,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Exit
       objectReference: {fileID: 0}
+    - target: {fileID: 4586858875294395181, guid: 28cc30a6112a34142892785a7e4588c7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Exit
+      objectReference: {fileID: 0}
     - target: {fileID: 5648313446425262986, guid: 28cc30a6112a34142892785a7e4588c7,
         type: 3}
       propertyPath: loadAsync
@@ -4453,6 +4463,11 @@ PrefabInstance:
       propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 543839983760243895, guid: 4dea0cf7190b8ea4f9d95a12761c3682,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1767575369416050845, guid: 4dea0cf7190b8ea4f9d95a12761c3682,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4518,7 +4533,23 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7267888659432369479, guid: 4dea0cf7190b8ea4f9d95a12761c3682,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7662688085548586908, guid: 4dea0cf7190b8ea4f9d95a12761c3682,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7676730397369360690, guid: 4dea0cf7190b8ea4f9d95a12761c3682,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7676730397369360690, guid: 4dea0cf7190b8ea4f9d95a12761c3682, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4dea0cf7190b8ea4f9d95a12761c3682, type: 3}
 --- !u!1001 &6839458011732196256
 PrefabInstance:

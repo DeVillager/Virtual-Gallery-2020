@@ -877,6 +877,10 @@ PrefabInstance:
       propertyPath: ColorModule.gradient.maxGradient.atime0
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 19876522, guid: 263867d4955e3644f9a1dfa779ab7d1e, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.ctime1
+      value: 5397
+      objectReference: {fileID: 0}
     - target: {fileID: 19917480, guid: 263867d4955e3644f9a1dfa779ab7d1e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
