@@ -20,7 +20,7 @@ public class ImageRotater : MonoBehaviour
     {
         gameObject.transform.Rotate(new Vector3(0, 90, 0), Space.World);
         Title.SetActive(false);
-        Description.SetActive(true);
+        //Description.SetActive(true);
         click.Play();
     }
 
@@ -28,6 +28,6 @@ public class ImageRotater : MonoBehaviour
     {
         gameObject.transform.Rotate(new Vector3(0, -90, 0), Space.World);
         Title.SetActive(true);
-        Description.SetActive(false);
+        //Description.SetActive(false);
     }
 }
