@@ -49,4 +49,11 @@ public class SimpleAttach : MonoBehaviour
             hand.HoverUnlock(interactable);
         }
     }
+
+    public void ApplyGravity()
+    {
+        GetComponent<Rigidbody>().useGravity = true;
+        GetComponent<Rigidbody>().isKinematic = false;
+    }
+
 }
