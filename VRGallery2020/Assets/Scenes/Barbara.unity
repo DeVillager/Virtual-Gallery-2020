@@ -575,6 +575,11 @@ PrefabInstance:
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 281782845}
+    - target: {fileID: 3455094835149759325, guid: 9adfa74a85a02d4418dac0c1718be8c6,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9adfa74a85a02d4418dac0c1718be8c6, type: 3}
 --- !u!82 &281782845 stripped
@@ -1174,11 +1179,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: MaskGuy2
       objectReference: {fileID: 0}
+    - target: {fileID: 4246219888329618055, guid: c0024ad3dac594743b2a6b8f86ac3462,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 5657861382014144554, guid: c0024ad3dac594743b2a6b8f86ac3462,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: aa079595c02355d4b899d52722be6835, type: 2}
+    - target: {fileID: 6802181185148723797, guid: c0024ad3dac594743b2a6b8f86ac3462,
+        type: 3}
+      propertyPath: m_TagString
+      value: MaskGuy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0024ad3dac594743b2a6b8f86ac3462, type: 3}
 --- !u!1 &881788415 stripped
@@ -1233,6 +1248,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.14122942
   m_Center: {x: 0, y: 1.6, z: 0.03}
+--- !u!114 &881788420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881788416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54ae038dcb5f7040947d4ef45166cb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveAmount: 0.1
 --- !u!1001 &893379167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1300,11 +1328,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: MaskGuy3
       objectReference: {fileID: 0}
+    - target: {fileID: 4246219888329618055, guid: c0024ad3dac594743b2a6b8f86ac3462,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 5657861382014144554, guid: c0024ad3dac594743b2a6b8f86ac3462,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ae376f2c98f570146aedbc216e5f50e4, type: 2}
+    - target: {fileID: 6802181185148723797, guid: c0024ad3dac594743b2a6b8f86ac3462,
+        type: 3}
+      propertyPath: m_TagString
+      value: MaskGuy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0024ad3dac594743b2a6b8f86ac3462, type: 3}
 --- !u!1 &893379168 stripped
@@ -1359,6 +1397,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.14122942
   m_Center: {x: 0, y: 1.6, z: 0.03}
+--- !u!114 &893379173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893379169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54ae038dcb5f7040947d4ef45166cb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveAmount: 0.1
 --- !u!1001 &894854925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1426,11 +1477,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: MaskGuy4
       objectReference: {fileID: 0}
+    - target: {fileID: 4246219888329618055, guid: c0024ad3dac594743b2a6b8f86ac3462,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 5657861382014144554, guid: c0024ad3dac594743b2a6b8f86ac3462,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b22c8403f45f3a54ebcdf98770c1ecc0, type: 2}
+    - target: {fileID: 6802181185148723797, guid: c0024ad3dac594743b2a6b8f86ac3462,
+        type: 3}
+      propertyPath: m_TagString
+      value: MaskGuy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0024ad3dac594743b2a6b8f86ac3462, type: 3}
 --- !u!1 &894854926 stripped
@@ -1485,6 +1546,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.14122942
   m_Center: {x: 0, y: 1.6, z: 0.03}
+--- !u!114 &894854931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894854927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54ae038dcb5f7040947d4ef45166cb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveAmount: 0.1
 --- !u!1 &944647492
 GameObject:
   m_ObjectHideFlags: 0
@@ -3294,11 +3368,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: MaskGuy1
       objectReference: {fileID: 0}
+    - target: {fileID: 4246219888329618055, guid: c0024ad3dac594743b2a6b8f86ac3462,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 5657861382014144554, guid: c0024ad3dac594743b2a6b8f86ac3462,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e00835b61ba71084eb2315562a9fc7a9, type: 2}
+    - target: {fileID: 6802181185148723797, guid: c0024ad3dac594743b2a6b8f86ac3462,
+        type: 3}
+      propertyPath: m_TagString
+      value: MaskGuy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0024ad3dac594743b2a6b8f86ac3462, type: 3}
 --- !u!1001 &327203885186782026
@@ -3783,3 +3867,16 @@ CapsuleCollider:
   m_Height: 1.4885813
   m_Direction: 1
   m_Center: {x: 0, y: 0.7442629, z: -0.10123232}
+--- !u!114 &6855241767863785706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6855241767863785703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54ae038dcb5f7040947d4ef45166cb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveAmount: 0.1

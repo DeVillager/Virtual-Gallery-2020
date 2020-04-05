@@ -42,4 +42,10 @@ public class WaterGun : MonoBehaviour
         }
     }
 
+    private void OnParticleCollision(GameObject other)
+    {
+        Debug.Log("joo"+other.gameObject.name);
+    }
+
+
 }

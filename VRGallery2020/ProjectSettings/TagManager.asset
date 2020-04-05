@@ -9,6 +9,8 @@ TagManager:
   - Image
   - Exit
   - Gallery
+  - FxTemporaire
+  - MaskGuy
   layers:
   - Default
   - TransparentFX

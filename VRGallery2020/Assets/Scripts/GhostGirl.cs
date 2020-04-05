@@ -9,10 +9,37 @@ public class GhostGirl : MonoBehaviour
     //public ParticleSystem vanish;
     public GameObject vanish;
     //public AudioSource audioSource;
+    public Material material;
+    private Color a;
+    private Color b;
+    public float lifeTime = 10f;
+    private float time;
+    private bool transparentToOpacity = true;
 
     private void Start()
     {
-        //vanish = GetComponent<ParticleSystem>();
+        time = 0;
+        a = Color.white;
+        b = Color.white;
+        b.a = 0f;
+    }
+
+    private void Update()
+    {
+        time += Time.deltaTime;
+        //if (time < lifeTime / 2)
+        //{
+        transform.GetComponent<Renderer>().material.color = Color.Lerp(b, a, Mathf.PingPong(2 * time, lifeTime) / lifeTime);
+        //}
+        //else
+        //{
+        //    transform.GetComponent<Renderer>().material.color = Color.Lerp(a, b, time / lifeTime);
+        //}
+
+        if (time > lifeTime)
+        {
+            Destroy(this.gameObject);
+        }
     }
 
     public void Disappear()
