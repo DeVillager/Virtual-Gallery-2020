@@ -16,7 +16,7 @@ public class ForwardMover : MonoBehaviour
     void Update()
     {
         time += Time.deltaTime;
-        transform.position += transform.forward * Time.deltaTime * speed;
+        transform.position += -transform.forward * Time.deltaTime * speed;
         if (time > lifetime)
         {
             Destroy(gameObject);

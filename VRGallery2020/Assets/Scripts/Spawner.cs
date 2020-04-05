@@ -10,7 +10,7 @@ public class Spawner : MonoBehaviour
     private GameObject spawnPrefab;
 
     [SerializeField]
-    private int size = 5;
+    private int areasize = 5;
 
     [SerializeField]
     private float spawnTime = 5f;
@@ -24,7 +24,7 @@ public class Spawner : MonoBehaviour
     {
         while (true)
         {
-            Vector3 randomPosition = new Vector3(Random.Range(-size, size), 0, Random.Range(-size, size));
+            Vector3 randomPosition = new Vector3(transform.position.x + Random.Range(-areasize, areasize), transform.position.y, transform.position.z  + Random.Range(-areasize, areasize));
             Quaternion randomRotation = Quaternion.Euler(0, Random.Range(0, 360), 0);
             Instantiate(spawnPrefab, randomPosition, randomRotation);
             yield return new WaitForSeconds(spawnTime);
