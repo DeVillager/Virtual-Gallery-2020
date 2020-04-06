@@ -28,6 +28,7 @@ public class PlayerSpawnController : MonoBehaviour
             //instantiate the player
             Player = Instantiate(PlayerPrefab, transform.position, transform.rotation);
         }
+
         Rigidbody[] rbs = Player.GetComponentsInChildren<Rigidbody>();
         foreach (Rigidbody rb in rbs)
         {
@@ -40,11 +41,14 @@ public class PlayerSpawnController : MonoBehaviour
         {
             pointer.enabled = laserEnabled;
         }
-        ShowControllers[] showControllers = Player.GetComponentsInChildren<ShowControllers>();
-        foreach (ShowControllers sc in showControllers)
-        {
-            sc.enabled = controllerEnabled;
-        }
+
+        Player.GetComponent<ShowControllers>().showControllers = controllerEnabled;
+        //ShowControllers[] showControllers = Player.GetComponentsInChildren<ShowControllers>();
+        //foreach (ShowControllers sc in showControllers)
+        //{
+        //    sc.enabled = controllerEnabled;
+        //}
+
         StickerPlacer[] stickerPlacerList = Player.GetComponentsInChildren<StickerPlacer>();
         foreach (var stickerPlacer in stickerPlacerList)
         {

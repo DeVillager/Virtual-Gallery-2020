@@ -8,9 +8,14 @@ public class ForwardMover : MonoBehaviour
 {
     [SerializeField]
     private int speed = 3;
+    [SerializeField]
+    private bool forwardReversed = true;
+    private int direction;
 
     void Update()
     {
-        transform.position += -transform.forward * Time.deltaTime * speed;
+        direction = forwardReversed ? -1 : 1;
+        transform.position += direction * transform.forward * Time.deltaTime * speed;
     }
+
 }

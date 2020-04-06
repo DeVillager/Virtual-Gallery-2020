@@ -63,6 +63,7 @@ public class DuplicateManager : MonoBehaviour
         GetComponent<AudioSource>().Play();
         sphere.transform.position = transform.position + Vector3.up * 0.2f;
         sphere.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        container.GetComponent<BlobInitializer>().MakeSceneBlobs();
     }
 
     public void SetActiveObject(GameObject go)

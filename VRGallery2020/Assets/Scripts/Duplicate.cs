@@ -65,11 +65,13 @@ public class Duplicate : MonoBehaviour
         //position = transform.position + Vector3.up * distance;
         position = transform.position + new Vector3(x, y, z) * distance;
         GameObject created = Instantiate(duplicate, position, Quaternion.identity);
-        transform.LookAt(this.gameObject.transform);
-        Vector3 scale = created.transform.localScale;
+        //transform.LookAt(this.gameObject.transform);
+        //Vector3 scale = created.transform.localScale;
         created.transform.SetParent(parent);
         created.GetComponent<Rigidbody>().isKinematic = false;
-        created.transform.localScale = scale;
+        //created.transform.localScale = scale;
+        created.transform.rotation = Quaternion.Euler(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360));
+        created.transform.localScale = Vector3.one * Random.Range(5, 10);
         created.GetComponent<Duplicate>().original = false;
     }
 

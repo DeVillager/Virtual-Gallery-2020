@@ -5,7 +5,13 @@ using UnityEngine;
 public class MaskGuy : MonoBehaviour
 {
     [SerializeField]
-    private float moveAmount = 0.1f;
+    private float moveAmount = 0.05f;
+    private GameObject player;
+
+    //private void Start()
+    //{
+    //    player = GameObject.Find("MyPlayer");
+    //}
 
     public void MoveTowardPlayer()
     {

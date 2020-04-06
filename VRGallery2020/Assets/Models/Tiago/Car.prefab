@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de4f5ec50af666340be7685093c12d0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 1800
+  rotationSpeed: -900
 --- !u!114 &8928794499656669017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25,7 +25,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de4f5ec50af666340be7685093c12d0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 1800
+  rotationSpeed: -900
 --- !u!82 &8143091745836664851
 AudioSource:
   m_ObjectHideFlags: 0
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de4f5ec50af666340be7685093c12d0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 1800
+  rotationSpeed: -900
 --- !u!114 &523427894395121344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -263,7 +263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de4f5ec50af666340be7685093c12d0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 1800
+  rotationSpeed: -900
 --- !u!1 &6296438572353793306
 GameObject:
   m_ObjectHideFlags: 0
@@ -404,8 +404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  time: 0
-  lifetime: 30
+  forwardReversed: 0
 --- !u!1001 &306568935606753448
 PrefabInstance:
   m_ObjectHideFlags: 0

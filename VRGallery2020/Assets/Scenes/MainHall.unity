@@ -6446,7 +6446,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Activate laser with index finger button and point to paintings.
+  m_text: Activate laser with index finger button and point to the paintings.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a0ec4fb2084a1894284f0bc72b98682b, type: 2}
   m_sharedMaterial: {fileID: 21783544699810222, guid: a0ec4fb2084a1894284f0bc72b98682b,
@@ -6516,10 +6516,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1735903328}
-    characterCount: 63
+    characterCount: 67
     spriteCount: 0
-    spaceCount: 9
-    wordCount: 10
+    spaceCount: 10
+    wordCount: 11
     linkCount: 0
     lineCount: 3
     pageCount: 1
