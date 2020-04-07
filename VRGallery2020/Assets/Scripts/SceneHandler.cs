@@ -28,7 +28,7 @@ public class SceneHandler : MonoBehaviour
             Debug.Log("Exit was clicked");
             e.target.GetComponent<SteamVR_LoadLevel>().Trigger();
         }
-        if (e.target.tag == "Image")
+        else if (e.target.tag == "Image")
         {
             Debug.Log("rotated");
             //Quaternion endRotation = Quaternion.Euler(0, activeImage.transform.rotation.y + 90, 0);
@@ -40,6 +40,13 @@ public class SceneHandler : MonoBehaviour
             activeImage = e.target.gameObject;
             activeImage.GetComponent<ImageRotater>().OnActivate();
             //e.target.GetComponent<SteamVR_LoadLevel>().Trigger();
+        } else if (e.target.tag == "Quit")
+        {
+            Debug.Log("Quitting the game...");
+            Application.Quit();
+            //AudioSource quitSound = e.target.GetComponent<AudioSource>();
+            //quitSound.PlayOneShot(quitSound.clip);
+            //QuitGame();
         }
     }
 
@@ -60,4 +67,10 @@ public class SceneHandler : MonoBehaviour
             e.target.GetComponent<ArtistImage>().HideInfo();
         }
     }
+
+    //IEnumerator QuitGame()
+    //{
+    //    yield return new WaitForSeconds(1f);
+    //    Application.Quit();
+    //}
 }

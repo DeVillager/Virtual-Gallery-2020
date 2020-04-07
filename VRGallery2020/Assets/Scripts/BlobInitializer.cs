@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BlobInitializer : MonoBehaviour
 {
-    public int planeSize = 5;
+    public float planeSize = 5;
     public int minScale = 5;
     public int maxScale = 20;
     public float minHeight = 0.5f;
@@ -30,6 +30,7 @@ public class BlobInitializer : MonoBehaviour
             created.transform.rotation = Quaternion.Euler(Random.Range(minRotation, maxRotation), Random.Range(minRotation, maxRotation), Random.Range(minRotation, maxRotation));
             created.transform.localScale = Vector3.one * Random.Range(minScale, maxScale);
             created.transform.SetParent(parent);
+            created.GetComponent<Duplicate>().original = false;
         }
     }
 

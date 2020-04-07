@@ -339,7 +339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duplicate: {fileID: 230990083497468978}
   duplicateAction:
-    actionPath: /actions/default/in/Teleport
+    actionPath: /actions/default/in/GrabPinch
     needsReinit: 0
   distance: 0.2
   parent: {fileID: 205645455}
@@ -841,7 +841,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 205645455}
-  - component: {fileID: 205645456}
   - component: {fileID: 205645457}
   m_Layer: 0
   m_Name: Container
@@ -864,20 +863,6 @@ Transform:
   m_Father: {fileID: 644174429}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &205645456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 205645454}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e979b7685d6802f41b7c61a5ce2ecc46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  blob: {fileID: 0}
-  blobAmount: 50
 --- !u!114 &205645457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2681,10 +2666,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Grab floating blob and duplicate with thumb button.
+  m_text: 'Duplicate blob with pinch button.
 
-    Click pedestal
-    to reset.'
+    Click pedestal to reset.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a0ec4fb2084a1894284f0bc72b98682b, type: 2}
   m_sharedMaterial: {fileID: 21783544699810222, guid: a0ec4fb2084a1894284f0bc72b98682b,
@@ -2754,10 +2738,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1074015379}
-    characterCount: 76
+    characterCount: 58
     spriteCount: 0
-    spaceCount: 11
-    wordCount: 12
+    spaceCount: 8
+    wordCount: 9
     linkCount: 0
     lineCount: 3
     pageCount: 1
@@ -4363,7 +4347,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1

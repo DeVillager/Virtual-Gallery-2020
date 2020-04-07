@@ -3270,7 +3270,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -4641,7 +4641,7 @@ PrefabInstance:
     - target: {fileID: 5303128739648946195, guid: 1e0e0dd149a969d468812afb12a6a8ca,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.25
+      value: -0.42
       objectReference: {fileID: 0}
     - target: {fileID: 5303128739648946195, guid: 1e0e0dd149a969d468812afb12a6a8ca,
         type: 3}
@@ -6373,7 +6373,7 @@ PrefabInstance:
     - target: {fileID: 5303128739648946195, guid: 1e0e0dd149a969d468812afb12a6a8ca,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.25
+      value: -0.42
       objectReference: {fileID: 0}
     - target: {fileID: 5303128739648946195, guid: 1e0e0dd149a969d468812afb12a6a8ca,
         type: 3}

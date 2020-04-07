@@ -11,15 +11,11 @@ public class RotateImages : MonoBehaviour
     public SteamVR_Input_Sources handType;
     public bool yRotationEnabled = false;
 
-    // Update is called once per frame
     void Update()
     {
-        //Debug.Log(input.axis.x);
         if (input.axis.magnitude > 0.1)
         {
-            //TODO: lerp rotation
-            
-            //transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(Vector3.up * angles), rotationSpeed * Time.deltaTime);
+            //TODO: lerp rotation        
             gameObject.transform.Rotate(new Vector3(yRotationEnabled ? input.axis.y : 0, input.axis.x, 0) * angles * Time.deltaTime, Space.World);
         }
     }

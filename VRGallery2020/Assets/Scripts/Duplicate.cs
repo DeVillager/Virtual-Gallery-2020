@@ -35,6 +35,11 @@ public class Duplicate : MonoBehaviour
                 DuplicateManager.instance.SetActiveObject(gameObject);
                 blob.PlayOneShot(blob.clip);
                 MakeDuplicates();
+                GetComponent<Interactable>().attachedToHand.DetachObject(this.gameObject);
+                if (!original)
+                {
+                    Destroy(this.gameObject);
+                }
             }
         }
         if (!original && transform.parent != parent)
@@ -48,7 +53,7 @@ public class Duplicate : MonoBehaviour
         Create(0, 1, phi);
         Create(0, -1, phi);
         Create(0, 1, -phi);
-        Create(0, - 1, -phi);
+        Create(0, -1, -phi);
         Create(1, phi, 0);
         Create(-1, phi, 0);
         Create(1, -phi, 0);

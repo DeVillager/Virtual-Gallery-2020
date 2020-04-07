@@ -1,11 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ArtistImage : MonoBehaviour
 {
     [SerializeField]
     private GameObject artistInfo;
+
 
     void Start()
     {
@@ -20,4 +19,5 @@ public class ArtistImage : MonoBehaviour
     {
         artistInfo.SetActive(false);
     }
+    
 }
