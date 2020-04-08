@@ -36,6 +36,11 @@ public class Duplicate : MonoBehaviour
                 blob.PlayOneShot(blob.clip);
                 MakeDuplicates();
                 GetComponent<Interactable>().attachedToHand.DetachObject(this.gameObject);
+                if (parent.GetComponent<AudioSource>() != null)
+                {
+                    AudioSource audioSource = parent.GetComponent<AudioSource>();
+                    audioSource.PlayOneShot(audioSource.clip);
+                }
                 if (!original)
                 {
                     Destroy(this.gameObject);

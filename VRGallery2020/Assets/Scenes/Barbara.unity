@@ -1260,7 +1260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54ae038dcb5f7040947d4ef45166cb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveAmount: 0.1
+  moveAmount: 0.07
 --- !u!1001 &893379167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1409,7 +1409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54ae038dcb5f7040947d4ef45166cb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveAmount: 0.1
+  moveAmount: 0.07
 --- !u!1001 &894854925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1417,6 +1417,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 290433965089282693, guid: c0024ad3dac594743b2a6b8f86ac3462,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5747
+      objectReference: {fileID: 0}
+    - target: {fileID: 290433965089282693, guid: c0024ad3dac594743b2a6b8f86ac3462,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.88586
+      objectReference: {fileID: 0}
+    - target: {fileID: 290433965089282693, guid: c0024ad3dac594743b2a6b8f86ac3462,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.88586
+      objectReference: {fileID: 0}
+    - target: {fileID: 290433965089282693, guid: c0024ad3dac594743b2a6b8f86ac3462,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.88586
+      objectReference: {fileID: 0}
     - target: {fileID: 916134689222361236, guid: c0024ad3dac594743b2a6b8f86ac3462,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1481,6 +1501,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246219888329618055, guid: c0024ad3dac594743b2a6b8f86ac3462,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5657861382014144554, guid: c0024ad3dac594743b2a6b8f86ac3462,
         type: 3}
@@ -1558,7 +1583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54ae038dcb5f7040947d4ef45166cb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveAmount: 0.1
+  moveAmount: 0.07
 --- !u!1 &944647492
 GameObject:
   m_ObjectHideFlags: 0
@@ -3879,4 +3904,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54ae038dcb5f7040947d4ef45166cb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveAmount: 0.1
+  moveAmount: 0.07
